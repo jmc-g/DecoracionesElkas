@@ -15,16 +15,35 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
 }
 
 
-#navprincipal {
-    z-index:10000;
-    height: 15%;
-    background-color:rgb(248, 234, 213);
+
+#logonav {
+    height: 72px;
+    width: 200px;
+    background-image:url("Logomarron-iloveimg-resized.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 1%;
     
 }
 
+#divnav {
+    width: 100%;
+    height: 15%;
+   
+}
+
+
+
+#navprincipal {
+    z-index:10000;
+    background-color:white;
+    
+}
+
+
 .navbar-dark .navbar-nav .nav-link {
     
-    color: rgb(95, 2, 31);
+    color: rgb(247, 11, 108);
     font-weight: 600;
     font-size: 17px;
     
@@ -37,15 +56,7 @@ margin-left: 50%;
 }
 
 
-#logonav {
-    height: 72px;
-    width: 200px;
-    background-image:url("Logomarron-iloveimg-resized.png");
-    background-repeat: no-repeat;
-    display: inline-block;
-    margin-left: 1%;
-    
-}
+
 
 #imgjumbo {
 
@@ -53,20 +64,20 @@ margin-left: 50%;
 
 }
 .dropdown-menu{ 
-    background-color:rgb(248, 234, 213);
+    background-color:white;
     border: none;
 
 }
 
 .dropdown-item {
-    color:  rgb(95, 2, 31);
+    color:rgb(247, 11, 108);
     font-weight: 600;
 }
 
 .dropdown-item:hover {
-    background-color:rgb(95, 2, 31);
+    
     font-weight: 600;
-    color: white;
+    color:rgb(117, 75, 35);
 }
 
 
@@ -100,9 +111,10 @@ margin-left: 50%;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    background-color: rgb(95, 2, 31);
-    color: white;
+    /*background-color: rgb(95, 2, 31);*/
+    color: rgb(117, 75, 35);
     border-radius:5px;
+      
 
 }
 
@@ -171,10 +183,10 @@ margin-left: 50%;
 }
 
 #botonmensaje {
-	float:right;
-	margin-right:6%;
-    margin-top: 9%;
-	position:relative;
+
+	margin-left:2%;
+    margin-top: 7%;
+	position:absolute;
 	
 }
 
