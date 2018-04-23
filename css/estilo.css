@@ -14,12 +14,16 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
 }
 
 
-
 .navbar-expand{
 
     position: fixed;
     width: 50%;
 
+}
+
+#cuerpodeco {
+
+    width: 100%;
 }
 
 
@@ -42,15 +46,12 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
 }
 
 
-
-
 #navprincipal {
     z-index:10000;
     background-color:white;
     position: fixed;
     width: 100%;
-  
-    
+   
     
 }
 
@@ -60,14 +61,8 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
     color: rgb(247, 11, 108);
     font-weight: 600;
     font-size: 15px;
-   
-    
+       
 }
-
-
-
-
-
 
 
 #imgjumbo {
@@ -75,6 +70,7 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
     width: auto;
 
 }
+
 .dropdown-menu{ 
     background-color:white;
     border: none;
@@ -91,7 +87,6 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
     font-weight: 600;
     color:rgb(117, 75, 35);
 }
-
 
 
 #jumbo {
@@ -130,8 +125,6 @@ margin-left: 50%;
     color: rgb(117, 75, 35);
     border-radius:5px;
     
-      
-
 }
 
 
@@ -160,8 +153,6 @@ margin-left: 50%;
 #divmision {
     background-color:rgb(95, 2, 31);
     color:white;
-    
-    
     
 
 }
@@ -226,3 +217,6 @@ margin-left: 50%;
 
 
 
+
+
+/* Estilos Responsive */
