@@ -11,12 +11,32 @@ src: url(fonts/MisteryQuest.ttf) format('truetype');
 font-family:MonotypeCorsiva;
 src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
 
-
 }
 
 
 
+.navbar-expand{
+
+    position: fixed;
+    width: 50%;
+
+}
+
+.navbar-collapse{
+
+    
+}
+
+
+#headernav {
+
+        width: 100%;
+        height: 13%;
+        
+}
+
 #logonav {
+    
     height: 72px;
     width: 200px;
     background-image:url("Logomarron-iloveimg-resized.png");
@@ -26,17 +46,16 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
     
 }
 
-#divnav {
-    width: 100%;
-    height: 15%;
-   
-}
 
 
 
 #navprincipal {
     z-index:10000;
     background-color:white;
+    position: fixed;
+    width: 100%;
+  
+    
     
 }
 
@@ -45,15 +64,13 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
     
     color: rgb(247, 11, 108);
     font-weight: 600;
-    font-size: 17px;
+    font-size: 15px;
+   
     
 }
 
 
-.navbar-nav{
-margin-left: 50%;
 
-}
 
 
 
@@ -103,7 +120,10 @@ margin-left: 50%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
+.navbar-nav {
+margin-left: 50%;
 
+}
 
 
 .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
@@ -111,9 +131,10 @@ margin-left: 50%;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    /*background-color: rgb(95, 2, 31);*/
+    
     color: rgb(117, 75, 35);
     border-radius:5px;
+    
       
 
 }
@@ -129,7 +150,7 @@ margin-left: 50%;
 
 .pinformacion {
     text-align: center;
-    padding: 2%;
+    padding: 10%;
     font-family:MonotypeCorsiva;
     font-size:xx-large;
     
@@ -145,15 +166,17 @@ margin-left: 50%;
     background-color:rgb(95, 2, 31);
     color:white;
     
+    
+    
 
 }
 
 #poligono {
     position: absolute;
-    margin-top: -1.5%
+    margin-top: -1.6%;
 
-  
 }
+
 
 
 #cardfooter{
@@ -205,3 +228,6 @@ margin-left: 50%;
     display: none;
 		
 }
+
+
+
