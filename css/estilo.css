@@ -2,15 +2,22 @@
 /*Fuentes Alternativas */
 @font-face
 {
+
 font-family: SegoeUI;
 src:url(fonts/SegoeUI.ttf) format('truetype');
 
-font-family: MisteryQuest;
-src: url(fonts/MisteryQuest.ttf) format('truetype');
+}
 
+@font-face
+{
+    font-family: MisteryQuest;
+src:url(fonts/MysteryQuest.ttf) format('truetype');
+}
+
+@font-face
+{    
 font-family:MonotypeCorsiva;
 src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
-
 }
 
 
@@ -95,15 +102,18 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
     font-size: 3em;
     color:rgb(95, 2, 31);
     text-align: center;
-    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family:MonotypeCorsiva;
 }
 
-.pinformacion {
+#pquienessomos {
     text-align: center;
     padding: 10%;
     font-family:MonotypeCorsiva;
     font-size:xx-large;
+}
 
+#divquienessomos{
+    height: auto;
 }
 
 
@@ -114,9 +124,23 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
 #divmision {
     background-color:rgb(95, 2, 31);
     color:white;
+    height: auto;
     
-    
+}
 
+
+#pmision {
+    text-align: justify;
+    padding: 10%;
+    font-family:MonotypeCorsiva;
+    font-size:xx-large;
+}
+
+#pvision {
+    text-align: justify;
+    padding: 10%;
+    font-family:MonotypeCorsiva;
+    font-size:xx-large;
 }
 
 #poligono {
@@ -179,16 +203,59 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
 }
 
 
+.imgfooter:hover{
+    filter: blur(1px);
+    
+
+
+}
+
 
 
 
 /* Estilos Responsive */
 @media screen and (max-width: 412px) {
-    .pinformacion {
-            font-size: 80%;
+
+    #pquienessomos {
+            font-size: 100%;
           
         }    
 
+     #pmision {
+            font-size: 100%;
+          
+        }   
+        
+     #pvision {
+            font-size: 100%;
+          
+        }       
 
+
+    .hsecciones{
+
+            font-size: 130%;
+    }
+
+    #hmisiones {
+             font-size: 130%;
+
+    }
+
+ 
+
+   .imgfooter{
+       width: 30px;
+       height:30px;
+      
+   }
+
+   .listafooter{
+       margin-left: 30%;
+   }
+   
+
+
+   
 
     }
