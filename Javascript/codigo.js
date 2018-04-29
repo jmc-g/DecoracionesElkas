@@ -4,22 +4,6 @@ $(document).ready(function () {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     $("#enviadatos").click(function () {
 		var mail = $("#correo").val();
 		var mensaje = $("#mensajecliente").val();  
