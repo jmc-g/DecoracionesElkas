@@ -274,7 +274,17 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
     margin-top: 50%;
    }
    
+   #logonav {
 
+        width: 100px;
+        height: 36px;
+        background-image:url("Logomarron-iloveimg-resizedcopia.png");
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin-left: 2%;
+            
+
+   }
 
 
    
