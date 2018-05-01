@@ -1,4 +1,21 @@
 $(document).ready(function () {
+
+
+  $('body').scrollspy({ target: '#navbarNavDropdown' })
+    
+    
+    $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        });
+  
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
     
 
 
@@ -26,7 +43,7 @@ $(document).ready(function () {
     
     
 });
-	
+
 
 
 
@@ -42,7 +59,7 @@ $(document).ready(function () {
 
      
       $('html, body').animate({
-        scrollTop: $(hash).offset().top
+        scrollTop: $(hash).offset().top -60
       }, 900, function(){
    
         window.location.hash = hash;
