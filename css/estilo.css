@@ -21,11 +21,10 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
 }
 
 
-
 #headernav {
 
         width: 100%;
-        height: 13%;
+        height: 90px;
         
 }
 
@@ -114,8 +113,13 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
 
 #divquienessomos{
     height: auto;
+    
 }
 
+#divnuestrahistoria {
+    height: auto;
+
+}
 
 #hmision {
     color: white;
@@ -125,6 +129,7 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
     background-color:rgb(95, 2, 31);
     color:white;
     height: auto;
+    
     
 }
 
@@ -218,7 +223,12 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
     background-image: url(icono/icono2.png);
 }
 
-
+#pnuestrahistoria {
+    text-align: center;
+    padding: 10%;
+    font-family:MonotypeCorsiva;
+    font-size:xx-large;
+}
 
 
 
