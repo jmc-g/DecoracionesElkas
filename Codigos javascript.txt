@@ -1,0 +1,62 @@
+   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+                if (this.hash !== "") {
+                  
+                  event.preventDefault();
+
+                  // Store hash
+                  var hash = this.hash;
+                  
+                
+                  $('html, body').animate({       
+                    scrollTop: $(hash).offset().top
+                  }, 1500, function(){
+              
+                    window.location.hash = hash;
+                  });
+                } // End if
+            });
+
+            $(window).scroll(function() {
+            $(".slideanim").each(function(){
+            var pos = $(this).offset().top;
+
+            var winTop = $(window).scrollTop();
+              if (pos < winTop + 600) {
+                $(this).addClass("slide");
+            }
+            });
+            });
+
+
+funciona en otras paginas
+
+ $('html, body').show(); 
+              if (window.location.hash) { setTimeout(function() {
+              $('html, body').scrollTop(0).show(); $('html, body').animate({ scrollTop: $(window.location.hash).offset().top }, 1000) }, 0); } 
+              else  { $('html, body').show(); } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ var jump=function(e) { 
+              if (e){ e.preventDefault(); 
+              var target = $(this).attr("href"); }
+              else{ var target = location.hash; } 
+              $('html,body').animate( { scrollTop: $(target).offset().top },2000,function() { location.hash = target; }); } 
+              $('html, body').hide(); $(document).ready(function() { $('a[href^=#]').bind("click", jump); 
+              if (location.hash){ setTimeout(function(){ $('html, body').scrollTop(0).show(); jump(); }, 0); }
+              else{ $('html, body').show(); } }); 

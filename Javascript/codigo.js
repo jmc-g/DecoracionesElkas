@@ -1,27 +1,87 @@
 $(document).ready(function () {
 
-//scrollpsy
-  $('body').scrollspy({ target: '#navbarNavDropdown' })
-    
-    
-    $(window).scroll(function(){
-            if ($(this).scrollTop() > 100) {
-                $('.scrollup').fadeIn();
-            } else {
-                $('.scrollup').fadeOut();
-            }
-        });
+
+  $('a#quienessomos').click(function(e) {
+    e.preventDefault();
+    var quienessomos1 = $(this).attr('href');
+    $('html, body').animate({
+
+      scrollTop:$(quienessomos1).offset().top
+
+    }, 1500);
+
+  });
+
+  $('a#mision').click(function(e) {
+    e.preventDefault();
+    var mision = $(this).attr('href');
+    $('html, body').animate({
+
+      scrollTop:$(mision).offset().top
+
+    }, 1500);
+
+  });
   
-        $('.scrollup').click(function(){
-            $("html, body").animate({ scrollTop: 0 }, 600);
-            return false;
-        });
-    
+
+  $('a#vision').click(function(e) {
+    e.preventDefault();
+    var vision = $(this).attr('href');
+    $('html, body').animate({
+
+      scrollTop:$(vision).offset().top
+
+    }, 1500);
+
+  });
+
+  
 
 
 
 
-    $("#enviadatos").click(function () {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+              //scrollpsy
+              $('body').scrollspy({ target: '#navbarNavDropdown' })
+                
+                
+                $(window).scroll(function(){
+                        if ($(this).scrollTop() > 100) {
+                            $('.scrollup').fadeIn();
+                        } else {
+                            $('.scrollup').fadeOut();
+                        }
+                    });
+              
+                    $('.scrollup').click(function(){
+                        $("html, body").animate({ scrollTop: 0 }, 600);
+                        return false;
+                  });
+
+
+              // Add smooth scrolling to all links in navbar + footer link
+
+
+
+
+
+
+  $("#enviadatos").click(function () {
 		var mail = $("#correo").val();
 		var mensaje = $("#mensajecliente").val();  
     
@@ -43,42 +103,6 @@ $(document).ready(function () {
     
     
 });
-
-
-
-
-   // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    
-    if (this.hash !== "") {
-      
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-      
-     
-      $('html, body').animate({       
-        scrollTop: $(hash).offset().top
-      }, 1000, function(){
-   
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-  
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
-
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-      }
-    });
-  });
-
-
 
 
 
