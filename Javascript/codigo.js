@@ -35,16 +35,7 @@ $(document).ready(function () {
 
   });
 
-  $('a#nuestrahistoria').click(function(e) {
-    e.preventDefault();
-    var nuestrahistoria = $(this).attr('href');
-    $('[href="index.html"], html, body').animate({
-
-      scrollTop:$(nuestrahistoria).offset().top
-
-    }, 1500);
-
-  });
+  
 
   
 

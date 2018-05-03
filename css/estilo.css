@@ -157,8 +157,6 @@ src:url(fonts/Oneday.ttf) format('truetype');
 
 #pmision {
     text-align: justify;
-    padding: 10%;
-    padding-top: 5%;
     font-family:RalewayLight;
     font-size:xx-large;
 }
@@ -248,13 +246,13 @@ li.livision {
 }
 
 .navbar-dark .navbar-toggler-icon {
-    background-image: url(icono/icono2.png);
+    background-image: url(icono/icono3.png);
 }
 
 .pnuestrahistoria {
     text-align: center;
     padding: 10%;
-    font-family:MonotypeCorsiva;
+    font-family:RalewayLight;
     font-size:xx-large;
 }
 
