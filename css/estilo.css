@@ -20,6 +20,15 @@ font-family:MonotypeCorsiva;
 src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
 }
 
+@font-face
+{    
+font-family:RalewayLight;
+src:url(fonts/RalewayLight.ttf) format('truetype');
+}
+
+
+
+
 
 #headernav {
 
@@ -33,6 +42,7 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
     background-color:white;
     position: fixed;
     width: 100%;
+    font-family:RalewayLight;
       
 }
 
@@ -107,7 +117,7 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
 #pquienessomos {
     text-align: center;
     padding: 10%;
-    font-family:MonotypeCorsiva;
+    font-family:RalewayLight;
     font-size:xx-large;
 }
 
