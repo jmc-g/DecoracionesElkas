@@ -26,8 +26,17 @@ font-family:RalewayLight;
 src:url(fonts/RalewayLight.ttf) format('truetype');
 }
 
+@font-face
+{    
+font-family:RalewayThinItalic;
+src:url(fonts/RalewayThinItalic.ttf) format('truetype');
+}
 
-
+@font-face
+{    
+font-family:Oneday;
+src:url(fonts/Oneday.ttf) format('truetype');
+}
 
 
 #headernav {
@@ -111,7 +120,7 @@ src:url(fonts/RalewayLight.ttf) format('truetype');
     font-size: 3em;
     color:rgb(95, 2, 31);
     text-align: center;
-    font-family:MonotypeCorsiva;
+    font-family:Oneday;
 }
 
 #pquienessomos {
@@ -133,10 +142,12 @@ src:url(fonts/RalewayLight.ttf) format('truetype');
 
 #hmision {
     color: white;
+    font-family: Oneday;
+    
 
 }
 #divmision {
-    background-color:rgb(95, 2, 31);
+    background-color:rgb(195, 101, 130);
     color:white;
     height: auto;
     
@@ -148,7 +159,7 @@ src:url(fonts/RalewayLight.ttf) format('truetype');
     text-align: justify;
     padding: 10%;
     padding-top: 5%;
-    font-family:MonotypeCorsiva;
+    font-family:RalewayLight;
     font-size:xx-large;
 }
 
@@ -157,7 +168,7 @@ li.livision {
     padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
-    font-family:MonotypeCorsiva;
+    font-family:RalewayLight;
     font-size:xx-large;
 }
 
