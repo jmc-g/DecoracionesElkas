@@ -1,43 +1,45 @@
 $(document).ready(function () {
 
 
-  $('a#quienessomos').click(function(e) {
+  /*$('a#quienessomos').click(function(e) {
     e.preventDefault();
     var quienessomos = $(this).attr('href');
+    
     $('[href="index.html"], html, body').animate({
 
       scrollTop:$(quienessomos).offset().top
 
     }, 1500);
 
-  });
-
-  $('a#mision').click(function(e) {
-    e.preventDefault();
-    var mision = $(this).attr('href');
-    $('html, body').animate({
-
-      scrollTop:$(mision).offset().top
-
-    }, 1500);
-
-  });
-  
-
-  $('a#vision').click(function(e) {
-    e.preventDefault();
-    var vision = $(this).attr('href');
-    $('html, body').animate({
-
-      scrollTop:$(vision).offset().top
-
-    }, 1500);
-
-  });
+  });*/
 
   
+  /*$("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });*/
 
   
+
+
+  $('#quienessomos').scrollTo('#spanquienessomos'[500][offset]);
 
 
 
