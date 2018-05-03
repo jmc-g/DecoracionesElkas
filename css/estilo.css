@@ -137,16 +137,23 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
 #pmision {
     text-align: justify;
     padding: 10%;
+    padding-top: 5%;
     font-family:MonotypeCorsiva;
     font-size:xx-large;
 }
 
-#pvision {
+li.livision {
     text-align: justify;
-    padding: 10%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     font-family:MonotypeCorsiva;
     font-size:xx-large;
 }
+
+
+
+
 
 #poligono {
     position: relative;
@@ -223,14 +230,24 @@ src:url(fonts/MonotypeCorsiva.ttf) format('truetype');
     background-image: url(icono/icono2.png);
 }
 
-#pnuestrahistoria {
+.pnuestrahistoria {
     text-align: center;
     padding: 10%;
     font-family:MonotypeCorsiva;
     font-size:xx-large;
 }
 
+#divbiografia  {
 
+    text-align: center;
+    background-image: url('../Imagenes/Instructora.png');
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 680px;
+    margin: auto;
+    margin-bottom: 5%;
+    
+}
 
 
 
