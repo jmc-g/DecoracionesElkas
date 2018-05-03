@@ -3,10 +3,10 @@ $(document).ready(function () {
 
   $('a#quienessomos').click(function(e) {
     e.preventDefault();
-    var quienessomos1 = $(this).attr('href');
-    $('html, body').animate({
+    var quienessomos = $(this).attr('href');
+    $('[href="index.html"], html, body').animate({
 
-      scrollTop:$(quienessomos1).offset().top
+      scrollTop:$(quienessomos).offset().top
 
     }, 1500);
 
@@ -30,6 +30,17 @@ $(document).ready(function () {
     $('html, body').animate({
 
       scrollTop:$(vision).offset().top
+
+    }, 1500);
+
+  });
+
+  $('a#nuestrahistoria').click(function(e) {
+    e.preventDefault();
+    var nuestrahistoria = $(this).attr('href');
+    $('[href="index.html"], html, body').animate({
+
+      scrollTop:$(nuestrahistoria).offset().top
 
     }, 1500);
 
