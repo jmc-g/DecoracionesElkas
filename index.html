@@ -11,7 +11,10 @@
             <link rel="stylesheet" href="boostrap\bootstrap-grid.css" type="text/css" />
             <link rel="stylesheet" href="boostrap\bootstrap-reboot.css" type="text/css" />
             <link rel="stylesheet" href="boostrap\bootstrap.css" type="text/css" />
-            <link rel="stylesheet" href="css/estilo.css" type="text/css" />		 
+            <link rel="stylesheet" href="css/estilo.css" type="text/css" />	
+            <link rel="stylesheet" href="css/aos.css" type="text/css" />	
+            	
+            
     </head>
 
    
@@ -105,13 +108,15 @@
             <div data-spy="scroll" data-target="#navprincipal" data-offset="0">
               <div class="secciones" id="divquienessomos">
                   <span id="spanquienessomos"></span><br><br>
-                <p class="pinformacion" id="pquienessomos">Somos una empresa que nace con el firme propósito de ofrecer los servicios de decoración en eventos sociales y elaboración 
+                <p class="pinformacion" id="pquienessomos" data-aos="fade-up-left" data-aos-duration="2000">Somos una empresa que nace con el firme propósito de ofrecer los servicios de decoración en eventos sociales y elaboración 
                   de hermosas y ricas tortas, gelatinas, mesas de dulces, pasapalos catering, entre otros, para cualquier ocasión, asimismo la preparación
                   de personas interesadas en el arte de la Repostería, destacados por nuestra característica de máxima confiabilidad, con una clave de orientación a nuestros clientes.</p>
               </div>
     
               <span id="spanmision"></span><br><br>
-                <div class="secciones" id="divmision">
+
+              
+                <div class="secciones" id="divmision"  data-aos="fade-right" data-aos-duration="1000" >
                     <div> 
                         <svg viewBox="0 0 1280 70" preserveAspectRatio="none" id="poligono" role="presentation" aria-hidden="true"><polygon points="1280 0 1280 70 0 70" fill="rgb(195, 101, 130)"></polygon></svg>                 
                     </div>
@@ -124,6 +129,7 @@
                         
                     </div>      
                 </div>
+                
               
                <span id="spanvision"></span><br><br>
                 <div class="secciones" id="divvision">
@@ -142,6 +148,10 @@
                             
                 </div> <!--/* cierra la section2-->	       
              </div>   <!-- /*cierra el data scroll-->
+
+
+
+            
 
 
         <div id="cardfooter" class="card">  
@@ -205,7 +215,16 @@
             <script type="text/javascript" src="Javascript\bootstrap.js"></script>
             <script type="text/javascript" src="Javascript\jquery.scrollTo.js"></script>
             <script type="text/javascript" src="Javascript\codigo.js"></script>
-         
+            <script type="text/javascript" src="Javascript/aos.js"></script>
+            <script type="text/javascript">
+              AOS.init();
+            </script>
+            
+            
+            
+
+           
+           
                 
     </body>
 

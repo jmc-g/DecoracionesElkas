@@ -39,7 +39,7 @@ $(document).ready(function () {
   
 
 
-  $('#quienessomos').scrollTo('#spanquienessomos'[500][offset]);
+ 
 
 
 
