@@ -13,6 +13,7 @@
             <link rel="stylesheet" href="boostrap\bootstrap.css" type="text/css" />
             <link rel="stylesheet" href="css/estilo.css" type="text/css" />	
             <link rel="stylesheet" href="css/aos.css" type="text/css" />	
+            
             	
             
     </head>
@@ -116,9 +117,18 @@
               
                
               <span id="spanmision"></span><br><br>
-                <div class="secciones" id="divmision"  data-aos="fade-right" data-aos-duration="1000" >
+                <div class="secciones" id="divmision"  data-aos="fade-right" data-aos-duration="2000" >
+                 
                     <div> 
-                        <svg viewBox="0 0 1280 70" preserveAspectRatio="none" id="poligono" role="presentation" aria-hidden="true"><polygon points="1280 0 1280 70 0 70" fill="rgb(195, 101, 130)"></polygon></svg>                 
+                        <svg viewBox="0 0 1280 64" preserveAspectRatio="none" id="poligono" role="presentation" aria-hidden="true">
+                            <defs>
+                                <linearGradient id="linear" x1="0%" y1="0%" x2="0%" y2="0%">
+                                  <stop offset="5%"   stop-color="rgba(45, 17, 92, 0.521)"/>
+                                  <stop offset="100%" stop-color="rgba(154, 75, 94, 0.92)"/>
+                                </linearGradient>
+                              </defs>
+                             <polygon points="1280 0 1280 70 0 70" fill="url(#linear)"></polygon>
+                        </svg>                 
                     </div>
                   <h4 id="hmision" class="hsecciones">Misión</h4>
                     <div class="secciones">
@@ -128,13 +138,14 @@
                           </p>  
                         
                     </div>   
-                     
-                </div>
-                
-              
+                   
+                </div> <!--Cierra divmision-->
+
+
+            
              
               <span id="spanvision"></span>
-               <div class="secciones" id="divvision">               
+               <div class="secciones" id="divvision"data-aos="zoom-in" data-aos-duration="3000">               
                   <h4 id="hvision" class="hsecciones">Visión</h4>
                    <div class="secciones">                               
                       <p class="" id="pvision">
@@ -214,6 +225,7 @@
             <script type="text/javascript" src="Javascript\bootstrap.js"></script>
             <script type="text/javascript" src="Javascript\jquery.scrollTo.js"></script>
             <script type="text/javascript" src="Javascript\codigo.js"></script>
+            <script type="text/javascript" src="Javascript/granim.js"></script>
             <script type="text/javascript" src="Javascript/aos.js"></script>
             <script type="text/javascript">
               AOS.init();

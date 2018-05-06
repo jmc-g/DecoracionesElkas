@@ -147,12 +147,16 @@ src:url(fonts/Oneday.ttf) format('truetype');
 
 }
 #divmision {
-    background-color:rgb(195, 101, 130);
+    background:linear-gradient(rgba(45, 17, 92, 0.521), rgba(154, 75, 94, 0.92));
     color:white;
     height: auto;
     
-    
+   
 }
+svg {
+    width:100%;
+    
+  }
 
 
 #pmision {
@@ -269,11 +273,6 @@ li.livision {
 }
 
 
-#pruebadataaos {
-    background-color: blue;
-    width: 500px;
-    height: 500px;
-}
 
 
 
