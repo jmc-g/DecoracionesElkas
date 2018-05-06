@@ -11,7 +11,8 @@
             <link rel="stylesheet" href="boostrap\bootstrap-grid.css" type="text/css" />
             <link rel="stylesheet" href="boostrap\bootstrap-reboot.css" type="text/css" />
             <link rel="stylesheet" href="boostrap\bootstrap.css" type="text/css" />
-            <link rel="stylesheet" href="css/estilo.css" type="text/css" />		 
+            <link rel="stylesheet" href="css/estilo.css" type="text/css" />	
+            <link rel="stylesheet" href="css/aos.css" type="text/css" />		 
     </head>
 
    
@@ -30,9 +31,9 @@
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Conócenos</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a id="quienessomos" class="dropdown-item" href="index.html">Quienes somos</a>
-                              <a id="mision" class="dropdown-item" href="#spanmision">Misión</a>
-                              <a id="vision"  class="dropdown-item" href="#spanvision">Visión</a>
+                              <a id="quienessomos" class="dropdown-item" href="index.html#spanquienessomos">Quienes somos</a>
+                              <a id="mision" class="dropdown-item" href="index.html#spanmision">Misión</a>
+                              <a id="vision"  class="dropdown-item" href="index.html#spanvision">Visión</a>
                               <a id="nuestrahistoria"  class="dropdown-item" href="Nuestrahistoria.html">Nuestra historia</a>
                             </div>     
                           </li>
@@ -60,40 +61,28 @@
          
 
             <div data-spy="scroll" data-target="#navprincipal" data-offset="0">
-              <div class="" id="divnuestrahistoria"> 
+              <div class="" id="divnuestrahistoria" data-aos="fade-up-left" data-aos-duration="2000"> 
                 <p class="pnuestrahistoria" id="">
                   Deco Elka’s, nace en el año 2009 en Caracas - Venezuela, con el firme propósito de ofrecer servicios de decoración en eventos sociales y elaboración de hermosas y ricas tortas, para cualquier ocasión. Luego de una sólida preparación profesional, 
-                  entendiendo que “El conocimiento no vale si no se comparte” <strong>Juan Miguel Hernandez Cruz</strong>, decidimos, en Febrero del año 2010, iniciar con la preparación de personas interesadas en el arte de la repostería, desde ese día hemos impartido de forma consecutiva, nuestros conocimientos. <br><br>
+                  entendiendo que “El conocimiento no vale si no se comparte” <i><strong>Juan Miguel Hernandez Cruz</strong></i>, decidimos, en Febrero del año 2010, iniciar con la preparación de personas interesadas en el arte de la repostería, desde ese día hemos impartido de forma consecutiva, nuestros conocimientos. <br><br>
                   Desde el año 2015, hasta la actualidad, radicamos en Montevideo - Uruguay, país que nos recibió con mucha receptividad y a quien de igual manera, hemos llenado con dulzura sus hogares y conocimiento a su gente talentosa. <br><br>
-                  De ésta forma, sumamos ocho años ininterrumpidos de muchas tortas horneadas, corazones endulzados y mucho talento artístico preparado.<br> <br><br>
-                  <strong>Biografía</strong>   
+                  De ésta forma, sumamos ocho años ininterrumpidos de muchas tortas horneadas, corazones endulzados y mucho talento artístico preparado.
                 </p>
+               </div> 
 
-                    <div id="divbiografia">
-                        
+                   <div id=divbibliografia style="margin-bottom: 10%"  data-aos="fade-up-left" data-aos-duration="6000">     
+                      <h4 id="hbibliografia" class="hsecciones">Bibliografía</h4>
+                   </div>
 
-                    </div>
+                   <div id="divbiografia" data-aos="fade-up-left" data-aos-duration="2000" >
+                      
+
+                   </div>
     
               
-                <div class="" id="">
-                    <p class="" id=""></p>
-                    
-                 
-                    <div class="">
-                        <p class="" id=""></p>      
-                    </div>      
-                </div>
+             
               
-         
-                <div class="" id="">
-                  
-                   <div id="">                               
-                      <p class="" id=""> </p>	
-                      <p class="" id=""> </p>
-                     
-                  </div>
-                            
-                </div> <!--/* cierra la section2-->	       
+              
              </div>   <!-- /*cierra el data scroll-->
 
 
@@ -158,6 +147,11 @@
             <script type="text/javascript" src="Javascript\bootstrap.js"></script>  
             <script type="text/javascript" src="Javascript\jquery.scrollTo.js"></script>        
             <script type="text/javascript" src="Javascript\codigo.js"></script>
+            <script type="text/javascript" src="Javascript/granim.js"></script>
+            <script type="text/javascript" src="Javascript/aos.js"></script>
+            <script type="text/javascript">
+              AOS.init();
+            </script>
                 
     </body>
 
