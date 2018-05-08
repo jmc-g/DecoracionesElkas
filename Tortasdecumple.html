@@ -13,7 +13,10 @@
             <link rel="stylesheet" href="boostrap\bootstrap.css" type="text/css" />
             <link rel="stylesheet" href="css/estilo.css" type="text/css" />	
             <link rel="stylesheet" href="css/aos.css" type="text/css" />	
-            <link rel="stylesheet" href="css/lightbox.css" type="text/css" />	 
+            <link rel="stylesheet" href="css/visuallightbox.css" type="text/css" />
+            <link rel="stylesheet" href="css/vlightbox.css" type="text/css" />
+            
+            
     </head>
 
    
@@ -63,11 +66,19 @@
 
             <div data-spy="scroll" data-target="#navprincipal" data-offset="0">
 
-                <a href="Imagenes/Carrusel/2.png" data-lightbox="roadtrip" data-title="Torta de Cumpleaños"><img class ="" src="./Imagenes/Carrusel/2.png" width="100px" height="100px" />Imagen 1</a>
-                <a href="Imagenes/Carrusel/5.png" data-lightbox="roadtrip">Imagen 2</a>
-                <a href="Imagenes/Carrusel/3.png" data-lightbox="roadtrip">Imagen 3</a>
+             
+              <div id="vlightbox">
+                <a id="firstImage" title="image 1" href="images/pic1.jpg" class="vlightbox"><img alt="image 1" src="images/pic1.jpg" /></a>
+                <a title="image 2" href="images/pic2.jpg" class="vlightbox"><img alt="image 2" src="images/pic2.jpg" /></a>
+                <a title="image 3" href="images/pic3.jpg" class="vlightbox"><img alt="image 3" src="images/pic3.jpg" /></a>
+                <a title="image 4" href="images/pic4.jpg" class="vlightbox"><img alt="image 4" src="images/pic4.jpg" /></a>
+                <a title="image 5" href="images/pic5.jpg" class="vlightbox vlightbox_hidden"><img alt="image 5" src="images/pic5.jpg" /></a>
+             </div>
 
-                
+              <script type="text/javascript">
+                var $VisualLightBoxParams$ = {autoPlay:true,borderSize:21,enableSlideshow:true,overlayOpacity:0.4,startZoom:true};
+              </script>
+              <script type="text/javascript" src="Javascript/visuallightbox.js"></script>
               
     
               
@@ -151,7 +162,8 @@
             <script type="text/javascript">
               AOS.init();
             </script>
-            <script type="text/javascript" src="Javascript/lightbox.js"></script>
+            
+         
             
 
                 
