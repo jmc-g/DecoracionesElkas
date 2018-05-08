@@ -47,7 +47,7 @@ src:url(fonts/Oneday.ttf) format('truetype');
 }
 
 #navprincipal {
-    z-index:10000;
+    z-index:9999;
     background-color:white;
     position: fixed;
     width: 100%;
@@ -68,7 +68,8 @@ src:url(fonts/Oneday.ttf) format('truetype');
 }
 
 .navbar-nav {
-    margin-left: 50%;
+    margin-left: 45%;
+    float: right;
     
          }
     
