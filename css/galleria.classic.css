@@ -11,8 +11,8 @@
 #galleria-loader{height:1px!important}
 
 .galleria {
-    width: 1300px;
-    height: 100%;
+    width: auto;
+    height: 450px;
     margin:auto;
 
 }
@@ -74,7 +74,7 @@
     right: 10px;
     z-index: 2;
     display: none;
-    background: url(classic-loader.gif) no-repeat 2px 2px;
+    background: url(../css/logogalery/classic-loader.gif) no-repeat 2px 2px;
 }
 .galleria-theme-classic .galleria-info {
     width: 50%;
@@ -227,7 +227,7 @@
 .galleria-theme-classic .galleria-info-close,
 .galleria-theme-classic .galleria-image-nav-left,
 .galleria-theme-classic .galleria-image-nav-right {
-    background-image: url(classic-map.png);
+    background-image: url(../css/logogalery/classic-map.png);
     background-repeat: no-repeat;
 }
 .galleria-theme-classic.galleria-container.videoplay .galleria-info,
