@@ -13,6 +13,7 @@
             <link rel="stylesheet" href="boostrap\bootstrap.css" type="text/css" />
             <link rel="stylesheet" href="css/estilo.css" type="text/css" />	
             <link rel="stylesheet" href="css/aos.css" type="text/css" />
+            <link rel="stylesheet" href="css/galleria.classic.css" type="text/css" />
          
           
             
@@ -62,17 +63,24 @@
           </header>
       
       
-      
          
 
             <div data-spy="scroll" data-target="#navprincipal" data-offset="0">
 
               <h4 class="hsecciones">Galería de Imágenes</h4>
 
-            
-    
-              
+                  
              
+              
+              <div class="galleria">
+                  <a href="Imagenes/Carrusel/1.png"><img src="Imagenes/Carrusel/Jumbo1.jpg"  data-big="Imagenes/Carrusel/1.png"data-title="My title" data-description="My description"></a>
+                  <a href="Imagenes/Carrusel/2.png"><img src="Imagenes/Carrusel/Jumbo1.jpg" data-title="My title" data-description="My description"></a>
+              </div>
+            
+
+
+
+
               
               
              </div>   <!-- /*cierra el data scroll-->
@@ -152,11 +160,20 @@
             <script type="text/javascript">
               AOS.init();
             </script>
+            <script type="text/Javascript" src="Javascript/galleria-1.5.7.js"></script>
+            <script type="text/Javascript" src="Javascript/galleria.classic.js"></script>
+            <script>
+                (function() { 
+                  Galleria.loadTheme('../DecoracionesElkas/Javascript/galleria.classic.js');
+                  Galleria.run('.galleria');
+                }());
+              </script>
+            
            
             
          
             
-
+           
                 
     </body>
 
