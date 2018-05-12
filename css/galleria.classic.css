@@ -11,8 +11,8 @@
 #galleria-loader{height:1px!important}
 
 .galleria {
-    width: auto;
-    height: 450px;
+    width: 1000px;
+    height: 500px;
     margin:auto;
 
 }
@@ -232,3 +232,16 @@
 }
 .galleria-theme-classic.galleria-container.videoplay .galleria-info,
 .galleria-theme-classic.galleria-container.videoplay .galleria-counter{ display:none!important; }
+
+
+
+@media screen and (max-width: 412px) {
+
+    .galleria {
+        width: auto;
+        height: 300px;
+        margin:auto;
+    
+    }
+
+}
