@@ -6930,14 +6930,12 @@ Galleria.configure({
     imageCrop: true,
     transition: 'fade',
     autoplay: 3000, //preguntar si quiere que se pasen solas las imagenes
-    clicknext:true,
     fullscreenCrop:true,
     fullscreenDoubleTap:true,
     imagePan:true,
     responsive:true,
     trueFullscreen:true,
 });
-
 
 
 
