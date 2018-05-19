@@ -269,10 +269,10 @@ li.livision {
 #divbiografia  {
 
     text-align: center;
-    background-image: url('../Imagenes/Instructora.png');
+    background-image: url('../Imagenes/Biografia.png');
     background-repeat: no-repeat;
-    width: 500px;
-    height: 680px;
+    width: 735px;
+    height: 1102px;
     margin: auto;
     margin-bottom: 5%;
     
@@ -385,17 +385,6 @@ li.livision {
 
    }
 
-   #divbiografia{
-
-    width: 300px;
-    height: 420px;
-    background-image:url("../Imagenes/Bibliografia.png");
-    background-repeat: no-repeat;
-    background-color: black;
-  
-    margin: auto;
-        
-
-}  
+ 
 
  }
