@@ -21,7 +21,8 @@
 .galleria-theme-classic {
     position: relative;
     overflow: hidden;
-    background:rgba(0, 0, 0, 0.952);
+    background:rgba(0, 0, 0, 0.616);
+    background :white;
 }
 .galleria-theme-classic img {
     -moz-user-select: none;
@@ -43,6 +44,7 @@
     left: 10px;
     right: 10px;
     z-index: 2;
+    
 }
 .galleria-theme-classic .galleria-carousel .galleria-thumbnails-list {
     margin-left: 30px;
@@ -85,7 +87,7 @@
     position: absolute;
 }
 .galleria-theme-classic .galleria-info-text {
-    background-color: #000;
+    background-color: rgba(0,0,0,0.5);
     padding: 12px;
     display: none;
     /* IE7 */ zoom:1;

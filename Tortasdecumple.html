@@ -13,7 +13,7 @@
             <link rel="stylesheet" href="boostrap\bootstrap.css" type="text/css" />
             <link rel="stylesheet" href="css\estilo.css" type="text/css" />	
             <link rel="stylesheet" href="css\aos.css" type="text/css" />
-            <link rel="stylesheet" href="css\galleria.classic.css" type="text/css" />
+            <link rel="stylesheet" href="css/galleria.twelve.css" type="text/css" />
          
           
             
@@ -40,7 +40,7 @@
                               <a id="quienessomos" class="dropdown-item" href="index.html#spanquienessomos">Quienes somos</a>
                               <a id="mision" class="dropdown-item" href="index.html#spanmision">Misión</a>
                               <a id="vision"  class="dropdown-item" href="index.html#spanvision">Visión</a>
-                              <a id="nuestrahistoria"  class="dropdown-item" href="Nuestrahistoria.html">Nuestra historia</a>
+                              <a id="nuestrahistoria"  class="dropdown-item" href="Nuestrahistoria.html#spannuestrahistoria">Nuestra historia</a>
                             </div>     
                           </li>
                          <li class="nav-item dropdown">
@@ -67,7 +67,7 @@
 
             <div data-spy="scroll" data-target="#navprincipal" data-offset="0">
              
-             <h4 class="hsecciones">Galería de Imágenes</h4>
+            <div><h4 class="hsecciones">Galería de Imágenes</h4></div>
 
                   
              
@@ -76,6 +76,7 @@
                   <a href="Imagenes/Galeriaimagenes/Tortadecumple/Jumbo1.jpg"><img src="Imagenes/Galeriaimagenes/Tortadecumple/Jumbo1.jpg" data-big="Imagenes/Galeriaimagenes/Tortadecumple/Jumbo1.jpg" data-title="My title" data-description="My description"></a>
                   <a href="Imagenes/Galeriaimagenes/Tortadecumple/Jumbo2.png"><img src="Imagenes/Galeriaimagenes/Tortadecumple/Jumbo2.png" data-big="Imagenes/Galeriaimagenes/Tortadecumple/Jumbo2.png" data-title="My title" data-description="My description"></a>
                   
+
 
 
               </div>
@@ -167,7 +168,10 @@
             <script type="text/javascript" src="Javascript\jquery-3.3.1.js"></script>
             <script type="text/javascript" src="Javascript\Popper.js"></script>
             <script type="text/javascript" src="Javascript\bootstrap.js"></script>  
-               
+            <script type="text/Javascript" src="Javascript/smooth-scroll.js"></script>
+            <script>
+              var scroll = new SmoothScroll('a[href*="#"]');
+            </script>   
             <script type="text/javascript" src="Javascript\codigo.js"></script>
             <script type="text/javascript" src="Javascript\granim.js"></script>
             <script type="text/javascript" src="Javascript\aos.js"></script>
@@ -175,10 +179,10 @@
               AOS.init();
             </script>
             <script type="text/Javascript" src="Javascript\galleria-1.5.7.js"></script>
-            <script type="text/Javascript" src="Javascript\galleria.classic.js"></script>
+            <script type="text/Javascript" src="Javascript/galleria.twelve/galleria.twelve.min.js"></script>
             <script>
                 (function() { 
-                  Galleria.loadTheme('../DecoracionesElkas/Javascript/galleria.classic.js');
+                  Galleria.loadTheme('../DecoracionesElkas/Javascript/galleria.twelve.min.js');
                   Galleria.run('.galleria');
                 }());
               </script>

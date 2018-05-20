@@ -27,12 +27,12 @@
 		// Selectors
 		ignore: '[data-scroll-ignore]',
 		header: null,
-		topOnEmptyHash: true,
+		topOnEmptyHash: false,
 
 		// Speed & Easing
 		speed: 2000,
 		clip: true,
-		offset: 0,
+		offset: 50,
 		easing: 'easeInOutCubic',
 		customEasing: null,
 

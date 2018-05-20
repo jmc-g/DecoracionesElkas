@@ -6932,7 +6932,7 @@ Galleria.configure({
     autoplay: 3000, //preguntar si quiere que se pasen solas las imagenes
     fullscreenCrop:true,
     fullscreenDoubleTap:true,
-    imagePan:true,
+    imagePan:false,
     responsive:true,
     trueFullscreen:true,
 });
