@@ -34,10 +34,10 @@
                          <li class="nav-item dropdown">
                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Conócenos</a>
                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <a id="quienessomos" class="dropdown-item" href="#spanquienessomos">Quienes somos</a>
-                                 <a id="mision" class="dropdown-item" href="#spanmision">Misión</a>
-                                 <a id="vision"  class="dropdown-item" href="#spanvision">Visión</a>
-                                 <a id="nuestrahistoria"  class="dropdown-item" href="Nuestrahistoria.html#divnuestrahistoria">Nuestra historia</a> 
+                                 <a id="quienessomos" class="dropdown-item" data-scroll href="#spanquienessomos">Quienes somos</a>
+                                 <a id="mision" class="dropdown-item" data-scroll href="#spanmision">Misión</a>
+                                 <a id="vision"  class="dropdown-item" data-scroll href="#spanvision">Visión</a>
+                                 <a id="nuestrahistoria"  class="dropdown-item" data-scrol href="Nuestrahistoria.html#divnuestrahistoria">Nuestra historia</a> 
                                </div>     
                           </li>
                          <li class="nav-item dropdown">
@@ -223,7 +223,11 @@
             <script type="text/javascript" src="Javascript/jquery-3.3.1.js"></script>
             <script type="text/javascript" src="Javascript/Popper.js"></script>
             <script type="text/javascript" src="Javascript/bootstrap.js"></script>
-            <script type="text/Javascript" src="javascript/jquery.scrollTo.js"></script>
+            <script type="text/Javascript" src="Javascript/smooth-scroll.js"></script>
+            <script>
+              var scroll = new SmoothScroll('a[href*="#"]');
+            </script>
+              
             <script type="text/javascript" src="Javascript/codigo.js"></script>
             <script type="text/javascript" src="Javascript/granim.js"></script>
             <script type="text/javascript" src="Javascript/aos.js"></script>
