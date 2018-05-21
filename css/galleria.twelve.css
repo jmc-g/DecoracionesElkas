@@ -11,8 +11,8 @@
 #galleria-loader{height:1px!important}
 
 .galleria {
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     margin: auto;  
 
 }
@@ -184,7 +184,7 @@
     height: 45px;
     float: left;
     margin: 0 7px 7px 0;
-    border: 3px solid #fff;
+   /* border: 3px solid #fff;*/
     cursor: pointer;
 }
 .galleria-theme-twelve.notouch .galleria-thumbnails .galleria-image:hover,
