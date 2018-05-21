@@ -268,15 +268,19 @@ li.livision {
 
 #divbiografia  {
 
-    text-align: center;
     background-image: url('../Imagenes/Biografia.png');
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: contain;
+    background-position: center;
+    width: 90%;
     height: 1102px;
     margin: auto;
-    margin-bottom: 5%;
+    text-align: center;
     
 }
+
+
+
 
 .modal {
 
