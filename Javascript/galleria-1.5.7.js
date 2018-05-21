@@ -6927,10 +6927,11 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 
 // phew
 Galleria.configure({
-    imageCrop: true,
+    imageCrop: false,
+    fullscreenCrop:false,
     transition: 'fade',
     autoplay: 3000, //preguntar si quiere que se pasen solas las imagenes
-    fullscreenCrop:true,
+    
     fullscreenDoubleTap:true,
     imagePan:false,
     responsive:true,
