@@ -6927,8 +6927,8 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 
 // phew
 Galleria.configure({
-    imageCrop: 'false',
-    fullscreenCrop:'width',
+    imageCrop: 'landscape',
+    fullscreenCrop:'landscape',
     transition: 'flash',
     autoplay: 3000, //preguntar si quiere que se pasen solas las imagenes
     
@@ -6936,6 +6936,11 @@ Galleria.configure({
     imagePan:false,
     responsive:true,
     trueFullscreen:true,
+    layerFollow: true,
+    overlayBackground:'blue',
+   
+
+
 });
 
 
