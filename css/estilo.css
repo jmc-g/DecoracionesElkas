@@ -114,7 +114,11 @@ src:url(fonts/Oneday.ttf) format('truetype');
    background-color:gray;
 }
 
+.d-block.w-100:hover {
+    
+  filter : saturate(180%);
 
+}
 
 .hsecciones {
     margin-top: 5%;
@@ -151,6 +155,7 @@ src:url(fonts/Oneday.ttf) format('truetype');
     background:linear-gradient(rgba(45, 17, 92, 0.521), rgba(154, 75, 94, 0.92));
     color:white;
     height: auto;
+    padding-top: 2%;
     
    
 }
