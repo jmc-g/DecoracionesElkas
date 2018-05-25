@@ -6937,7 +6937,7 @@ Galleria.configure({
     responsive:true,
     trueFullscreen:true,
     layerFollow: true,
-    overlayBackground:'blue',
+    
    
 
 
