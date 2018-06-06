@@ -11,8 +11,8 @@
 #galleria-loader{height:1px!important}
 
 .galleria {
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
     margin: auto;  
 
 }
@@ -36,12 +36,13 @@
 }
 .galleria-theme-twelve .galleria-stage {
     overflow: hidden;
-    background: #000;
+    background:rgba(245, 220, 220, 0.856);
     position: absolute;
+    filter: blur(50);
     top: 0;
     left: 0;
     right: 0;
-    bottom: 30px;
+    bottom: 0;
 }
 .galleria-theme-twelve.fullscreen .galleria-stage { bottom: 0 }
 .galleria-theme-twelve .galleria-bar {
