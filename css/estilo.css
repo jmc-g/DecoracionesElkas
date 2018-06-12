@@ -3,6 +3,13 @@
 @font-face
 {
 
+font-family: IndieFlower;
+src:url(fonts/IndieFlower.ttf) format('truetype');
+
+}
+@font-face
+{
+
 font-family: SegoeUI;
 src:url(fonts/SegoeUI.ttf) format('truetype');
 
@@ -128,7 +135,7 @@ src:url(fonts/Oneday.ttf) format('truetype');
     font-size: 3em;
     color:rgb(95, 2, 31);
     text-align: center;
-    font-family:Oneday;
+    font-family:IndieFlower;
 }
 
 #pquienessomos {
@@ -150,7 +157,7 @@ src:url(fonts/Oneday.ttf) format('truetype');
 
 #hmision {
     color: white;
-    font-family: Oneday;
+    font-family:IndieFlower;
     
 
 }
@@ -234,7 +241,7 @@ li.livision {
 
 #botonmensaje {
     color:rgb(247, 11, 108);
-    font-family: RalewayLight;
+    font-family: IndieFlower;
     font-weight: bold;
 
 
